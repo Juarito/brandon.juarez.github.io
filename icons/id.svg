@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="150px" height="150px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 150 150"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#EE3D8B;fill-rule:nonzero}
+    .fil2 {fill:url(#id0);fill-rule:nonzero}
+    .fil0 {fill:url(#id1);fill-rule:nonzero}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="-12.15" y1="28.07" x2="162.15" y2="115.22">
+   <stop offset="0" style="stop-opacity:0.2; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+  <radialGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.61905 -0 -0 1.61905 -30 -22)" cx="48.25" cy="35.58" r="1115.63" fx="48.25" fy="35.58">
+   <stop offset="0" style="stop-opacity:0.980392; stop-color:#4B1325"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#1A1107"/>
+  </radialGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_105553347834528">
+   <rect class="fil0" x="4.61" y="4.61" width="140.78" height="140.78"/>
+   <path class="fil1" d="M148.74 148.74l-147.48 0 0 -147.48 147.48 0 0 147.48zm-140.78 -6.7l134.08 0 0 -134.08 -134.08 0 0 134.08z"/>
+   <rect class="fil1" x="48.19" y="34.78" width="13.41" height="80.44"/>
+   <path class="fil1" d="M115.22 115.22l-22.79 0c-11.19,0 -21.38,-7.56 -23.63,-18.53 -3.09,-15.08 8.41,-28.39 22.96,-28.39l10.05 0 0 -20.11 13.41 0 0 67.03zm-23.46 -33.52c-5.55,0 -10.06,4.51 -10.06,10.06 0,5.54 4.51,10.05 10.06,10.05l10.05 0 0 -20.11 -10.05 0z"/>
+   <polygon class="fil2" points="148.74,148.74 1.26,148.74 1.26,1.26 148.74,1.26 "/>
+  </g>
+  <g id="_105553347835456">
+  </g>
+  <g id="_105553347822624">
+  </g>
+  <g id="_105553347824128">
+  </g>
+  <g id="_105553347827552">
+  </g>
+  <g id="_105553347829184">
+  </g>
+  <g id="_105553347835040">
+  </g>
+  <g id="_105553347833888">
+  </g>
+  <g id="_105553347833248">
+  </g>
+  <g id="_105553347827648">
+  </g>
+  <g id="_105553347838432">
+  </g>
+  <g id="_105553347841856">
+  </g>
+  <g id="_105553347838720">
+  </g>
+  <g id="_105553347838848">
+  </g>
+  <g id="_105553347843616">
+  </g>
+  <g id="_105553347850016">
+  </g>
+ </g>
+</svg>

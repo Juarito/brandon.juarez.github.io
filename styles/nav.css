@@ -1,0 +1,53 @@
+nav{
+    position: fixed;
+    top:0;
+    background-color: white;
+    left:0;
+    right:0;
+    /*this was one of the only ways
+    to get the fixed nav to center.
+    It is said that this code will
+    work too
+
+    left: 50%;
+    transform: translateX(-50%);
+        */  
+}
+
+nav ul {
+    margin:
+        0;
+    list-style:
+        none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin:
+        0 0.35em;
+}
+
+nav ul li ul {
+    display:
+        none;
+}
+
+nav ul li a {
+    font-size: 25px;
+    border-radius:
+        5px;
+    color:
+        #483838;
+    text-decoration:
+        none;
+    padding:
+        0.6em 1.2em 0.6em 1.2em;
+    /* background-color: #483838; */
+    outline:
+        0;
+}
+
+.navLink {
+    color: #0EEDED;
+    text-shadow: 1px 1px 3px #000000;
+}

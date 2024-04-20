@@ -1,0 +1,33 @@
+aside {
+    max-width:
+        200px;
+    float:
+        left;
+    min-height:
+        auto;
+    color:
+        #000000;
+        box-shadow: 20px 20px 30px 20px #0EEDED inset;
+   
+}
+
+aside {
+    padding: 5px;
+}
+
+aside p {
+    padding:
+        0px 20px;
+}
+
+.asideLink {
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.asideHover:hover,
+.asideHover:focus,
+.asideHover:active {
+    color: #f8b993;
+    text-shadow: 1px 1px 1px #000000;
+}
