@@ -1,43 +1,60 @@
 .card {
-    display: inline-block;
-   /* color: #0EEDED; 
-    text-shadow: 1px 1px 3px #000000; */
-    /*margin: 10px;
-    */margin: 0.5%;
-    /*padding: 10px;
-    */padding: 0.5%;
-    /*width: 427px;
-    */width: 30%;
-    height: 340px;
-    overflow: hidden;
-    box-shadow: 1px 1px 8px 3px #0EEDED;  
+  display: inline-block;
+  margin: 0.5%;
+  padding: 0.5%;
+  width: 30%;
+  height: 340px;
+  overflow: hidden;
+  box-shadow: 1px 1px 8px 3px #0eeded;
+}
+#skills {
+  text-align: center;
 }
 
 .card p {
-    padding: 5%;
+  padding: 5%;
 }
 
 .skillsCard {
-    display: inline-block;
-   /* color: #0EEDED; 
-    text-shadow: 1px 1px 3px #000000; */
-    /*margin: 10px;
-    */margin: 0.5%;
-    /*padding: 10px;
-    */padding: 0.5%;
-    /*width: 427px;
-    */width:12%;
-    height: 170px;
-    overflow: hidden;
-    box-shadow: 1px 1px 8px 3px #0EEDED;  
-    text-align: center;
+  display: inline-block;
+  margin: 0.5%;
+  padding: 0.5%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  box-shadow: 1px 1px 8px 3px #0eeded;
+  text-align: center;
 }
 
 .skillsCard p {
-    padding: 5%;
+  padding: 5%;
 }
 
-.skillsCard img{
-    width:140px;
+.skillsCard img {
+  width: 100%;
 }
 
+@media screen and (max-width: 725px) {
+  .skillsCard {
+    width: 100%;
+    height: 5%;
+    text-align: left;
+    margin: 2%;
+  }
+
+  .skillsCard p {
+    margin-bottom: 0;
+    padding: 3%;
+  }
+  .skillsCard img {
+    display: block;
+    float: left;
+    height: 10%;
+    width: 10%;
+  }
+
+  .skillsCard h1 {
+    display: block;
+    float: left;
+  }
+}

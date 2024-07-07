@@ -1,9 +1,19 @@
-nav{
+#invisible_icon {
+    display: none;
+}
+
+.notIcon {
+    display: inline-block;
+}
+
+nav {
     position: fixed;
-    top:0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
     background-color: white;
-    left:0;
-    right:0;
+    z-index: 1000;
     /*this was one of the only ways
     to get the fixed nav to center.
     It is said that this code will
@@ -11,43 +21,66 @@ nav{
 
     left: 50%;
     transform: translateX(-50%);
-        */  
+        */
 }
 
 nav ul {
-    margin:
-        0;
-    list-style:
-        none;
+    margin: 0;
+    list-style: none;
 }
 
 nav ul li {
     display: inline-block;
-    margin:
-        0 0.35em;
+    margin: 0 0.35em;
 }
 
 nav ul li ul {
-    display:
-        none;
+    display: none;
 }
 
 nav ul li a {
     font-size: 25px;
-    border-radius:
-        5px;
-    color:
-        #483838;
-    text-decoration:
-        none;
-    padding:
-        0.6em 1.2em 0.6em 1.2em;
-    /* background-color: #483838; */
-    outline:
-        0;
+    border-radius: 5px;
+    color: #483838;
+    text-decoration: none;
+    padding: 0.6em 1.2em;
+    outline: 0;
 }
 
 .navLink {
-    color: #0EEDED;
+    color: #0eeded;
     text-shadow: 1px 1px 3px #000000;
+}
+
+@media screen and (max-width: 920px) {
+    nav {
+        text-align: left;
+    }
+
+    #invisible_icon {
+        text-align: right;
+        display: block;
+        cursor: pointer;
+    }
+
+    .notIcon {
+        width: 100%;
+        background: rgba(14, 237, 237, 0.1);
+    }
+
+    .icon {
+        color: #0eeded;
+        text-shadow: 1px 1px 3px #000000;
+    }
+
+    .icon:hover,
+    .icon:focus,
+    .icon:active {
+        color: #f8b993;
+        text-shadow: 1px 1px 2px #000000;
+    }
+
+    .hidden {
+        display: none;
+    }
 }

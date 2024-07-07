@@ -3,7 +3,7 @@
 /* CSS Document */
 
 * {
-    border: 0;
+    box-sizing: border-box;
     padding:
         0;
     margin:
@@ -17,22 +17,19 @@ html{
 }
 
 body {
-    margin: 44px auto 0; /* Replace with your fixed navbar height
+    margin: 0;
+   /*  margin: 44px auto 0; /* Replace with your fixed navbar height
     this fixes the fixed nav bar from overlapping content when using
     a link to it. */
+    max-width: 100%;
     background-color:
         #ffffff;
-    font:
-        100% Verdana;
+    font: 100% Verdana, sans-serif; /* Ensure fallback to sans-serif */
 }
 
 header {
     text-align:
         center;
-    /*background-color:
-        #0EEDED; */
-    height:
-        auto;
 }
 
 
@@ -48,13 +45,15 @@ header {
     text-shadow: 1px 1px 2px #000000;
 }
 
-#Hero img {
-    max-width: 100%;
+#hero{
+    text-align: center;
+}
+#hero img {
+    width: 100%;
 }
 
 #wrapper {
-    max-width:
-        1200px;
+    
     margin:
         0 auto;
     background-color:
@@ -90,6 +89,10 @@ article p {
     text-align: center;
 }
 
+.singleLine{
+    white-space: nowrap;
+}
+
 footer {
     clear:
         both;
@@ -106,4 +109,9 @@ footer p {
     padding-top:
         3%;
 }
-
+@media screen and (min-width: 1080px) {
+    
+.widthSetter{
+    margin: 1% 10%;
+}
+}

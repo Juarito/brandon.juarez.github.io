@@ -1,7 +1,7 @@
 table {
     margin-left: auto;
     margin-right: auto;
-    /* this is the only I found to center
+    /* this is the only way I found to center
     a table */
 }
 
@@ -12,22 +12,8 @@ td {
 }
 
 tr:nth-of-type(odd) {
-    background-color: #4002EB;
-    color: white;
-}
-
-table td a {
-    color: #0EEDED;
-    text-shadow: 1px 1px 1px #000000;
-    text-decoration:
-        none;
-}
-
-.td_a_Hover:hover,
-.td_a_Hover:focus,
-.td_a_Hover:active {
-    color: #f8b993;
-    text-shadow: 1px 1px 1px #000000;
+    background-color: #0EEDED;
+    color: black;
 }
 
 td {
