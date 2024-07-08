@@ -44,14 +44,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function handleSwipe() {
-      if (touchEndX < touchStartX) {
-        // Swiped left
+      if (touchEndX < touchStartX - 50) { // Swiped left
         if (currentIndex < galleryInner.children.length - 1) {
           currentIndex++;
           updateGallery();
         }
-      } else if (touchEndX > touchStartX) {
-        // Swiped right
+      } else if (touchEndX > touchStartX + 50) { // Swiped right
         if (currentIndex > 0) {
           currentIndex--;
           updateGallery();
